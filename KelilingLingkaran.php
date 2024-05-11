@@ -14,7 +14,7 @@
     <?php 
         $r =15;
         $hasil = 2 * pi() * $r;
-        echo "Keliling lingkaran adalah $r";
+        echo "Keliling lingkaran adalah $hasil";
     ?>
 </body>
 </html>

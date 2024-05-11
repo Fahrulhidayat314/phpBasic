@@ -12,7 +12,7 @@
     <h1>Ini Halaman PHP Saya</h1>
 
     <?php 
-        $angka = 4;
+        $angka = 9;
 
         switch ($angka) {
             case 1:

@@ -12,7 +12,7 @@
     <h1>Ini Halaman PHP Saya</h1>
 
     <?php 
-        $warna = "merah";
+        $warna = "kuning";
         switch ($warna) {
             case "merah":
                 echo "Warna adalah merah";

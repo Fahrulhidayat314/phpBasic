@@ -12,19 +12,20 @@
     <h1>Ini Halaman PHP Saya</h1>
 
     <?php 
-        $nama = "Obi";
-        $gPokok = 3250000;
-        $tunjangan = 1200000;
-        $gKotor = $gPokok + $tunjangan;
-        $pajak = 10 / 100 * $gKotor;
-        $gBersih = $gKotor - $pajak;
+    $nama = "Obi";
+    $gPokok = 3250000;
+    $tunjangan = 1200000;
+    $gKotor = $gPokok + $tunjangan;
+    $pajak = 10 / 100 * $gKotor;
+    $gBersih = $gKotor - $pajak;
 
-        echo "Nama : " . $nama . "<br>";
-        echo "Gaji Pokok : " . $nama . " Sebesar Rp. " . $gPokok ."<br>";
-        echo "Tunjangan : " . $nama . " Sebesar Rp. " . $tunjangan ."<br>";
-        echo "Gaji Kotor : " . $nama . " Sebesar Rp. " . $gKotor ."<br>";
-        echo "Pajak : " . $nama . " Sebesar Rp. " . $pajak ."<br>";
-        echo "Gaji Bersih : " . $nama . " Sebesar Rp. " . $gBersih ."<br>";
-    ?>  
+    echo "Nama : " . $nama . "<br>";
+    echo "Gaji Pokok : Rp. " . $gPokok . "<br>";
+    echo "Tunjangan : Rp. " . $tunjangan . "<br>";
+    echo "Gaji Kotor : Rp. " . $gKotor . "<br>";
+    echo "Pajak : Rp. " . $pajak . "<br>";
+    echo "Gaji Bersih : Rp. " . $gBersih . "<br>";
+?>  
+
 </body>
 </html>

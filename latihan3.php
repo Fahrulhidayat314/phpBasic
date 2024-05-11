@@ -21,7 +21,7 @@
     echo "Perkalian ". $x * $y. "<br>";
     echo "Pembagian ". $x / $y. "<br>";
     echo "Modulus ". $x % $y. "<br>";
-    echo "Eksponensial ". $x % $y. "<br>";
+    echo "Eksponensial ". $x ** $y. "<br>";
     echo ("<br>");
 
     // Assignment Operators
